@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+
+body {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+  }
+  
+  .main {
+    background-image: radial-gradient( circle 1226px at 114.7% 128%,  rgba(41,55,53,1) 17.3%, rgba(66,66,65,1) 27.8%, rgba(17,10,1,1) 60%, rgba(77,77,77,1) 100.2% );
+    border: 1px solid #12ffdf;
+    border-radius: 10px;
+    
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .heading{
+    color: white;
+  }
+  .ipt{
+    gap: 10px;
+
+  }
+  #taskInput{
+    border: none !important;
+    font-size: 20px;
+  }
+  
+  .remove-all{
+    text-align: center !important;
+  }
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+  }
+  
